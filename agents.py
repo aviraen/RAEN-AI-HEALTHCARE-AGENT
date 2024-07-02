@@ -12,7 +12,7 @@ from crewai_tools import ScrapeWebsiteTool, SerperDevTool
 
 
 load_dotenv()
-os.environ["OPENAI_API_KEY"] = "OPEN_API_KEY"
+os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 os.environ["SERPER_API_KEY"] = "SERPER_API_KEY"
 
 
